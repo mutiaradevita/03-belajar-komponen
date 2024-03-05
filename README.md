@@ -10,3 +10,9 @@ Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda 
 Pertama memodifikasi kode page.tsx sesuai kebutuhan, seperti menambahkan teks atau elemen lain di sekitar komponen Profile(). Selanjutnya pada saat dijalankan terdapat pesan error (Error: Invalid src prop (https://i.imgur.com/MK3eW3Am.jpg) on next/image, hostname "i.imgur.com" is not configured under images in your next.config.js
         See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host)
 Pesan error tersebut muncul karena kita menggunakan komponen next/image dari Next.js untuk menampilkan gambar yang dihosting di i.imgur.com, namun hostname tersebut belum dikonfigurasi dalam file next.config.js, Sehingga dengan menambahkan i.imgur.com ke array domains, kita memberitahu Next.js bahwa gambar dari i.imgur.com valid dan boleh diproses.
+
+2. Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+![alt text](image-1.png)
+Output yang dihasilkan dari percobaan kedua sama seperti percobaan pertama, dari membuat komponen Gallery dan mengimpornya memungkinkan untuk kita menggunakannya kembali di berbagai tempat dalam aplikasi React. Hal ini membantu menjaga kode kita agar tetap terstruktur, terorganisir, dan mudah dipelihara.
+
+3.
