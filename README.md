@@ -26,4 +26,4 @@ Kode tersebut error karena terdapat tag HTML yang tidak ditutup dengan benar. Ta
 ![alt text](image-3.png)
 Kode di atas masih terdapat error, silakan diperbaiki.
 - Kode Perbaikan
-![alt text](image-4.png)
+![alt text](image-5.png)
