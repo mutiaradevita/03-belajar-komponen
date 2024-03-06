@@ -15,4 +15,8 @@ Pesan error tersebut muncul karena kita menggunakan komponen next/image dari Nex
 ![alt text](image-1.png)
 Output yang dihasilkan dari percobaan kedua sama seperti percobaan pertama, dari membuat komponen Gallery dan mengimpornya memungkinkan untuk kita menggunakannya kembali di berbagai tempat dalam aplikasi React. Hal ini membantu menjaga kode kita agar tetap terstruktur, terorganisir, dan mudah dipelihara.
 
-3.
+3. Silakan perbaiki kode JSX berikut ini. Anda boleh menggunakan konverter atau perbaiki secara manual.
+![alt text](2d3e8e6735445678.png)
+Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan mengapa error itu bisa terjadi?
+![alt text](image-2.png)
+Kode tersebut error karena terdapat tag HTML yang tidak ditutup dengan benar. Tag <div> di awal kode tidak memiliki tag penutup </div>.
