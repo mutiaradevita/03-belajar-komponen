@@ -17,6 +17,13 @@ Output yang dihasilkan dari percobaan kedua sama seperti percobaan pertama, dari
 
 3. Silakan perbaiki kode JSX berikut ini. Anda boleh menggunakan konverter atau perbaiki secara manual.
 ![alt text](2d3e8e6735445678.png)
+
 Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan mengapa error itu bisa terjadi?
 ![alt text](image-2.png)
-Kode tersebut error karena terdapat tag HTML yang tidak ditutup dengan benar. Tag <div> di awal kode tidak memiliki tag penutup </div>.
+Kode tersebut error karena terdapat tag HTML yang tidak ditutup dengan benar. Tag div di awal kode tidak memiliki tag penutup.
+
+4. - Kode Awal 
+![alt text](image-3.png)
+Kode di atas masih terdapat error, silakan diperbaiki.
+- Kode Perbaikan
+![alt text](image-4.png)
