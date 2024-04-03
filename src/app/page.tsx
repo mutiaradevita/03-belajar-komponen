@@ -1,18 +1,14 @@
-import Image from "next/image";
-//import Profile from "../components/profile";
 import { Gallery } from "@/components/gallery";
+import { TodoList } from "@/components/todolist";
 
 export default function Home() {
   return (
-        <div className="container">
-          <div className="header">
-          <div className= "flex w-full justify-center">
-          <h1>Ilmuwan yang luar biasa</h1>
-          </div>
-            <div className= "flex w-full justify-center">
-                <Gallery/>
-            </div>
-          </div>
-        </div>
-      );
-    };
+    <section>
+      <h1 className="font-semibold text-slate-900 truncate pr-20 text-center">Ilmuwan yang luar biasa</h1>
+      <hr />
+      <Gallery />
+      <hr />
+      <TodoList />
+    </section>
+  );
+}

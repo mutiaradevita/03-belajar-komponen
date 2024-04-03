@@ -27,3 +27,10 @@ Kode tersebut error karena terdapat tag HTML yang tidak ditutup dengan benar. Ta
 Kode di atas masih terdapat error, silakan diperbaiki.
 - Kode Perbaikan
 ![alt text](image-5.png)
+
+5. Buka file src/components/todolist.tsx lakukan ekstrak URL gambar ke dalam objek person.
+
+Capture hasilnya dan buatlah laporan di README.md. Apakah ada perbedaan pada tampilan web saat ini?
+![alt text](image-6.png)
+Tidak terdapat perbedaan.
+
